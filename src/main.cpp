@@ -82,9 +82,6 @@ void setup(){
 
   accGyr.Set_X_FS(LSM6DSO_16g);
   accGyr.Set_G_FS(LSM6DSO_2000dps);
-  
-  accGyr.Set_X_ODR_With_Mode(LSM6DSO_XL_ODR_6667Hz, LSM6DSO_ACC_HIGH_PERFORMANCE_MODE);
-  accGyr.Set_G_ODR_With_Mode(LSM6DSO_GY_ODR_6667Hz, LSM6DSO_GYRO_HIGH_PERFORMANCE_MODE);
 
 }
 
